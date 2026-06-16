@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slack App Configurator"
+  short_description: "GUI for Slack app manifests and tokens"
+  default_prompt: "Use $slack-app-configurator to open a GUI and create a Slack app from an App Configuration Token."
