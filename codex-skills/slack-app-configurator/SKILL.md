@@ -41,6 +41,7 @@ The app name, bot display name, and description fields intentionally start empty
 4. Click `Validate manifest` before creating the app.
 5. Click `Create app` to run `slack api apps.manifest.create`.
 6. Open the returned `oauth_authorize_url` once to approve workspace installation.
+7. If you need to validate a generated skill folder, run `python3 scripts/quick_validate.py <path-to-skill>`.
 
 The script runs locally on loopback. It does not save tokens, write token files, or log token values. Slack CLI output is returned to the page with command previews redacted.
 

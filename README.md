@@ -28,6 +28,12 @@ Windows에서는 PowerShell에서 스킬 폴더로 이동한 뒤 실행합니다
 
 GUI는 입력한 앱 ID와 유저 토큰을 포함하는 개인용 Slack 작업 스킬 생성 지침을 만들 수 있습니다. 생성된 개인 스킬은 본인 로컬 머신 전용으로 쓰고, GitHub나 공유 드라이브에 올리지 마세요.
 
+스킬 폴더를 검증하려면 함께 포함된 검증 스크립트를 실행합니다.
+
+```bash
+python3 codex-skills/slack-app-configurator/scripts/quick_validate.py codex-skills/slack-app-configurator
+```
+
 ## 로컬 확인
 
 ```bash
